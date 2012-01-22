@@ -12,8 +12,10 @@ import java.util.logging.Logger;
 
 import net.probot.rsc.bot.Bot;
 
-
-
+/**
+ * @author Mark
+ *
+ */
 public class JarLoader extends ClassLoader {
 	public JarLoader(Bot bot) {
 		classes = new HashMap<String, byte[]>();
