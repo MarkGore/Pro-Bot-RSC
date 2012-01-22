@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import net.probot.rsc.bot.Bot;
-
+/**
+ * @author Mark Gore
+ */
 public class Methods {
 	public Map<String, String> args = new HashMap<String, String>();
 	public boolean randomActivated = false;

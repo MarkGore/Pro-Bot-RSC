@@ -12,6 +12,10 @@
       <object class="com.jformdesigner.model.FormLayoutManager"> 
        <class>com.jformdesigner.runtime.NullLayout</class> 
       </object> 
+      <void method="setProperty"> 
+       <string>title</string> 
+       <string>Pro-Bot #4</string> 
+      </void> 
       <void method="add"> 
        <object class="com.jformdesigner.model.FormContainer"> 
         <string>javax.swing.JTabbedPane</string> 
@@ -20,6 +24,24 @@
         </object> 
         <void property="name"> 
          <string>tabbedPane1</string> 
+        </void> 
+        <void method="add"> 
+         <object class="com.jformdesigner.model.FormContainer"> 
+          <string>javax.swing.JPanel</string> 
+          <object class="com.jformdesigner.model.FormLayoutManager"> 
+           <class>com.jformdesigner.runtime.NullLayout</class> 
+          </object> 
+          <void property="name"> 
+           <string>panel1</string> 
+          </void> 
+         </object> 
+         <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+          <null/> 
+          <void method="setProperty"> 
+           <string>title</string> 
+           <string>Main</string> 
+          </void> 
+         </object> 
         </void> 
        </object> 
        <object class="com.jformdesigner.model.FormLayoutConstraints"> 
@@ -34,11 +56,11 @@
         </void> 
         <void method="setProperty"> 
          <string>width</string> 
-         <int>720</int> 
+         <int>520</int> 
         </void> 
         <void method="setProperty"> 
          <string>height</string> 
-         <int>455</int> 
+         <int>365</int> 
         </void> 
        </object> 
       </void> 
@@ -58,8 +80,8 @@
       <void method="setProperty"> 
        <string>size</string> 
        <object class="java.awt.Dimension"> 
-        <int>725</int> 
-        <int>480</int> 
+        <int>525</int> 
+        <int>395</int> 
        </object> 
       </void> 
      </object> 

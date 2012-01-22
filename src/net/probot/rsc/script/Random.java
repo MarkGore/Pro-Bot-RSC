@@ -3,10 +3,9 @@ package net.probot.rsc.script;
 import java.util.logging.Level;
 
 import net.probot.rsc.bot.Bot;
-
-// Added support to toggle the Methods.activateRandom boolean so
-//    Methods.java and others can know a random has been activated.
-
+/**
+ * @author Mark Gore
+ */
 public abstract class Random extends Scriptable {
 	public boolean isActive = false;
 	public boolean isUsed = true;

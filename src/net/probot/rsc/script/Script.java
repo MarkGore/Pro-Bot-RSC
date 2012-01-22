@@ -5,7 +5,9 @@ import java.util.Map;
 import java.util.logging.Level;
 
 import net.probot.rsc.bot.Bot;
-
+/**
+ * @author Mark Gore
+ */
 public abstract class Script extends Scriptable implements EventListener {
 	public int ID = -1;
 	public volatile boolean isActive = false;

@@ -8,7 +8,9 @@ import java.util.Map;
 
 import net.probot.rsc.bot.Bot;
 import net.probot.rsc.plugin.PluginLoader;
-
+/**
+ * @author Mark Gore
+ */
 public class ScriptHandler {
 	private HashMap<Integer, Script> scripts = new HashMap<Integer, Script>();
 	private HashMap<Integer, Thread> scriptThreads = new HashMap<Integer, Thread>();

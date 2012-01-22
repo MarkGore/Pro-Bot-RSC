@@ -3,7 +3,9 @@ package net.probot.rsc.script;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
-
+/**
+ * @author Mark Gore
+ */
 public class Scriptable extends Methods {
 
 	protected Map<String, Object> parameters = new HashMap<String, Object>();

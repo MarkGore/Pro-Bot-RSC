@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 import net.probot.rsc.bot.Bot;
 
-
 /**
  * @author Mark Gore
  * 

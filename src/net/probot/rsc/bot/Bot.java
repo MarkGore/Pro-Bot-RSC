@@ -1,5 +1,6 @@
 package net.probot.rsc.bot;
 import java.applet.Applet;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -16,10 +17,8 @@ import net.probot.rsc.loaders.RSAppletStub;
 import net.probot.rsc.reflection.ClientWrapper;
 import net.probot.rsc.reflection.ReflectionHook;
 import net.probot.rsc.script.ScriptHandler;
-
 /**
- * @author Mark
- *
+ * @author Mark Gore
  */
 public class Bot implements Runnable {
 	public static ArrayList<ReflectionHook> hooks = new ArrayList<ReflectionHook>();
