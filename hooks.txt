@@ -1,0 +1,2 @@
+client.username client.jf
+client.isSleeping client.hg
